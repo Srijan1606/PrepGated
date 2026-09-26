@@ -1,0 +1,8 @@
+{
+  "name": "Remix Placement Prep Platform",
+  "description": "Adaptive 5-stage placement preparation platform with role-specific study paths, real-time achievement tracking, and mock interviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrepGated - Placement Preparation & In-Demand Careers</title>
+    <meta name="description" content="PrepGated: A structured, data-driven platform to help you build skills, track progress, and get placement ready." />
+    <meta property="og:title" content="PrepGated - Your path to the right opportunity" />
+    <meta property="og:description" content="A structured, data-driven platform to help you build skills, track progress, and get placement ready." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('prepgated_theme') || 'dark';
+          document.documentElement.classList.add(t);
+          document.documentElement.classList.remove(t === 'dark' ? 'light' : 'dark');
+          document.documentElement.setAttribute('data-theme', t);
+          document.documentElement.style.colorScheme = t;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans antialiased min-h-screen selection:bg-[#4f46e5] selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
